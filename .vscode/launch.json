@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Library (dev, H2)",
+      "request": "launch",
+      "mainClass": "pl.pp.library.LibraryApplication",
+      "projectName": "library",
+      "args": "--spring.profiles.active=dev"
+    },
+    {
+      "type": "java",
+      "name": "Library (postgres)",
+      "request": "launch",
+      "mainClass": "pl.pp.library.LibraryApplication",
+      "projectName": "library",
+      "args": "--spring.profiles.active=postgres"
+    }
+  ]
+}
